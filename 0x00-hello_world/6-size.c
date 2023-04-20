@@ -7,7 +7,6 @@
 int main(void)
 {
         printf(" char:%d\n",sizeof(char));
-	printf(" char long:%d\n",sizeof(char long));
 	printf(" int :%d\n",sizeof(int));
 	printf(" long int :%d\n",sizeof(long int));
 	printf(" long long int:%d\n",sizeof(long long int));
