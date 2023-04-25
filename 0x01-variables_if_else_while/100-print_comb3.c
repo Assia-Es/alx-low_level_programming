@@ -11,10 +11,9 @@ int n;
 int m;
 for (n = 48 ; n <= 56 ; n++)
 {
-for (m = n +1  ; m <= 56 ; m++)
+for (m = n + 1  ; m <= 56 ; m++)
 {
 putchar(n);
-m = n + 1;
 putchar(m);
 if (n == 56 && m == 57)
 {
