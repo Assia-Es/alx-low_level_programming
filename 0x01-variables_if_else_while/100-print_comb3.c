@@ -8,14 +8,13 @@
 int main(void)
 {
 int n;
-
+int m;
 for (n = 48 ; n <= 57 ; n++)
 {
 putchar(n);
-n = n + 1;
-putchar(n);
-n = n - 1;
-if (n == 57)
+m = n + 1;
+putchar(m);
+if (n == 56 && m = 57)
 {
 continue;
 }
