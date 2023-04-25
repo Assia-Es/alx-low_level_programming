@@ -23,7 +23,7 @@ for (t = 49  ; t <= 57 ; t++)
 putchar(n);
 putchar(m);
 putchar(' ');
-putchar(p - 1);
+putchar(p);
 putchar(t);
 if (n == 57 && m == 56 && p == 55 && t == 57)
 {
@@ -32,6 +32,7 @@ continue;
 putchar(',');
 putchar(' ');
 }
+t = t - 1;
 }
 }
 }
