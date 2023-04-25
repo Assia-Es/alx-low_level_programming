@@ -22,8 +22,10 @@ for (t = p + 1  ; t <= 57 ; t++)
 {
 putchar(n);
 putchar(m);
+putchar(' ');
 putchar(p);
-if (n == 57 && m == 56 && p == 57 && t==57)
+putchar(t);
+if (n == 57 && m == 56 && p == 57 && t == 57)
 {
 continue;
 }
