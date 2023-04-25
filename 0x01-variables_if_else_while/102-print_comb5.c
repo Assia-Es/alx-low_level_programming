@@ -18,7 +18,7 @@ for (m = 48  ; m <= 56 ; m++)
 {
 for (p = 48  ; p <= 55 ; p++)
 {
-for (t = 48  ; t <= 57 ; t++)
+for (t = 49  ; t <= 57 ; t++)
 {
 putchar(n);
 putchar(m);
