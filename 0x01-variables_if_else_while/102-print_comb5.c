@@ -8,15 +8,15 @@
 int main(void)
 {
 int n;
-int m = 0;
-int p = 0;
-int t = 48;
+int m;
+int p;
+int t;
 for (n = 48 ; n <= 57 ; n++)
 {
 
 for (m = 48  ; m <= 56 ; m++)
 {
-for (p = 48  ; p <= 55 ; p++)
+for (p = 48  ; p <= 57 ; p++)
 {
 for (t = 49  ; t <= 57 ; t++)
 {
