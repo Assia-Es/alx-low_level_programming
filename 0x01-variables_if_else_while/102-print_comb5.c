@@ -34,7 +34,7 @@ putchar(' ');
 }
 }
 }
-n = n + 1;
+n = n - 1;
 }
 putchar('\n');
 return (0);
