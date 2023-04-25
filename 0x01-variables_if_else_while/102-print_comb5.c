@@ -18,12 +18,12 @@ for (m = 48  ; m <= 56 ; m++)
 {
 for (p = 48  ; p <= 55 ; p++)
 {
-for (t = 49  ; t <= 56 ; t++)
+for (t = 49  ; t <= 57 ; t++)
 {
 putchar(n);
 putchar(m);
 putchar(' ');
-putchar(p);
+putchar(p - 1);
 putchar(t);
 if (n == 57 && m == 56 && p == 55 && t == 57)
 {
