@@ -14,7 +14,7 @@ int t;
 for (n = 48 ; n <= 57 ; n++)
 {
 
-for (m = 48  ; m <= 56 ; m++)
+for (m = 48  ; m <= 57 ; m++)
 {
 for (p = 48  ; p <= 57 ; p++)
 {
@@ -25,7 +25,7 @@ putchar(m);
 putchar(' ');
 putchar(p);
 putchar(t);
-if (n == 57 && m == 56 && p == 55 && t == 57)
+if (n == 57 && m == 56 && p == 57 && t == 57)
 {
 continue;
 }
