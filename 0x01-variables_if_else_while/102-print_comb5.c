@@ -20,6 +20,10 @@ for (p = 48  ; p <= 57 ; p++)
 {
 for (t = 48  ; t <= 57 ; t++)
 {
+if (n == 48 && m == 48 && p == 48 && t == 48)
+{
+continue;
+}
 putchar(n);
 putchar(m);
 putchar(' ');
