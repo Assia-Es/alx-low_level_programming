@@ -16,11 +16,13 @@ for (m = n + 1  ; m <= 57 ; m++)
 {
 putchar(n);
 putchar(m);
+if(n == 56 && m == 57 )
+{
 putchar(',');
 putchar(' ');
 }
-
 }
-putchar(',\n');
+}
+putchar('\n');
 return (0);
 }
