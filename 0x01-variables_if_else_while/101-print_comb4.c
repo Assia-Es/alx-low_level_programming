@@ -20,7 +20,7 @@ for (p = m + 1  ; m <= 57 ; m++)
 putchar(n);
 putchar(m);
 putchar(p);
-if (n == 56 && m == 57 && p == 55)
+if (n == 55 && m == 56 && p == 57)
 {
 continue;
 }
