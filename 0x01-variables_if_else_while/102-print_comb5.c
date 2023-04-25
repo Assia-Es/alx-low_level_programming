@@ -10,13 +10,13 @@ int main(void)
 int n;
 int m = 0;
 int p = 0;
-int t;
+int t = 48;
 for (n = 48 ; n <= 57 ; n++)
 {
 
 for (m = 48  ; m <= 56 ; m++)
 {
-for (p = t + 1  ; p <= 57 ; p++)
+for (p = 48  ; p <= 55 ; p++)
 {
 for (t = 48  ; t <= 57 ; t++)
 {
@@ -25,7 +25,7 @@ putchar(m);
 putchar(' ');
 putchar(p);
 putchar(t);
-if (n == 57 && m == 56 && p == 57 && t == 57)
+if (n == 57 && m == 56 && p == 55 && t == 57)
 {
 continue;
 }
