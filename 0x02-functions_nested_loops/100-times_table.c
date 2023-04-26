@@ -16,7 +16,7 @@ for (i = 0 ; i <= n ; i++)
 t = j * i;
 if (i != n)
 {
-printf("%d, ", t);
+printf("%d,   ", t);
 }
 else
 {
