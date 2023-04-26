@@ -12,10 +12,26 @@ for (a = 0 ; a <= 9 ; a++)
 for (i = 0 ; i <= 9 ; i++)
 {
 t = a * i;
-_putchar(t * 49);
-_putchar(44);
-_putchar(32);
+if (i == 10)
+{
+_putchar(t + '0');
+}
+if (t < 10 && i != 0)
+{
+_putchar(',');
+_putchar(' ');
+_putchar(' ');
+_putchar(t + '0');
+}
+else if (t >= 10)
+{
+_putchar(',');
+_putchar(' ');
+_putchar((t / 10) + '0');
+_putchar((t % 10) + '0');
+}
 }
 _putchar('\n');
+
 }
 }
