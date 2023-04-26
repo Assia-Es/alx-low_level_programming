@@ -31,7 +31,7 @@ printf("%d, ", i);
 }
 else
 {
-printf("%d\n" ,i);
+printf("%d\n",i);
 }
 }
 }
