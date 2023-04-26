@@ -12,7 +12,7 @@ for (a = 0 ; a <= 9 ; a++)
 for (i = 0 ; i <= 9 ; i++)
 {
 t = a * i;
-if (i == 10)
+if (i == 0)
 {
 _putchar(t + '0');
 }
