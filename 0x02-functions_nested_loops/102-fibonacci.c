@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - ana ecrire
+ * main - fibonacci en c
  *
  * Return: Alwayes 0.
  */
