@@ -4,9 +4,7 @@
  */
 #include <stdio.h>
 /**
- * main : ana ecrire
- *
- *Description: sum
+ * main - ana ecrire
  *
  * Return: Alwayes 0.
  */
