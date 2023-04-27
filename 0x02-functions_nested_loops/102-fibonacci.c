@@ -1,7 +1,3 @@
-/*
- * File: 102-fibonacci.c
- * Auth: assia
- */
 #include <stdio.h>
 /**
  * main - ana ecrire
