@@ -6,23 +6,23 @@
  */
 void print_times_table(int n)
 {
-int i, t, j, r;
-r = n * n;
+int i, t, j;
 if (n <= 15 && n >= 0)
 {
-for (j = 0 ; j <= n ; j++)
+for (j = 1  ; j <= n ; j++)
 {
-for (i = 0 ; i <= n ; i++)
+printf("0,");
+for (i = 1 ; i <= n ; i++)
 {
 t = j * i;
 if (i != n)
 {
-if (r >= 0 && r <= 9)
-printf("%d,   ", t);
-if (r >= 10 && r <= 99)
-printf("%d,  ", t);
-if (r >= 100)
-printf("%d,  ", t);
+	if (t >= 0 && t <= 9)
+printf("   %d,", t);
+if (t > 9 && t <= 99)
+printf("  %d,", t);
+if (t >= 100)
+printf(" %d,", t);
 }
 else
 {
