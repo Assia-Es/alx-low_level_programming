@@ -6,6 +6,8 @@
 /**
  * main : ana ecrire
  *
+ *Description: sum
+ *
  * Return: Alwayes 0.
  */
 int main(void)
