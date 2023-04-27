@@ -18,20 +18,20 @@ t = j * i;
 if (i != n)
 {
 if (t >= 0 && t <= 9)
-printf("  %d,", t);
+printf("   %d,", t);
 if (t > 9 && t <= 99)
-printf(" %d,", t);
+printf("  %d,", t);
 if (t >= 100)
-printf("%d,", t);
+printf(" %d,", t);
 }
 else
 {
 if (t >= 0 && t <= 9)
-printf("  %d", t);
+printf("   %d", t);
 if (t > 9 && t <= 99)
-printf(" %d", t);
+printf("  %d", t);
 if (t >= 100)
-printf("%d", t);
+printf(" %d", t);
 }
 }
 printf("\n");
