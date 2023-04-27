@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - fibonacci en c
+ * main -  prints the first 50 fibonacci numbers, starting with 1 and 2, followed by a new line
  *
  * Return: Alwayes 0.
  */
@@ -22,7 +22,6 @@ else
 {
 printf(", ");
 }
-
 return (0);
 }
 }
