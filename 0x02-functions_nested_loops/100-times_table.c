@@ -14,7 +14,7 @@ if (n <= 15 && n > 0)
 for (j = 0  ; j <= n ; j++)
 {
 printf("0,");
-for (i = 0 ; i <= n ; i++)
+for (i = 1 ; i <= n ; i++)
 {
 t = j * i;
 if (i != n)
