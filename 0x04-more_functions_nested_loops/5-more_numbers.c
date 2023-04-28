@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * more_numbers-  for uppercase character..
+ * more_numbers - for uppercase character..
  *
  * Return: void.
  */
