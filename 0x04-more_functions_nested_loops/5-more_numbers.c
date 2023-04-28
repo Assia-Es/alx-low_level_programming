@@ -1,4 +1,3 @@
-root@31e2fc51f300:~/alx-low_level_programming/0x04-more_functions_nested_loops# cat 0-isupper.c
 #include "main.h"
 #include <stdio.h>
 
