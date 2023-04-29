@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - The “Fizz-Buzz test” is an interview ..
+ * main - The Fizz-Buzz test is an interview ..
  *
  * Return: Always 0 (Success).
  */
