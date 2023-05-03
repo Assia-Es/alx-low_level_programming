@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * puts2(char *str) - writes the character c to stdout
+ * puts2 - writes the character c to stdout
  * @str: The character to print
- * return: 0
+ * return: half or input 
  */
 
 void puts2(char *str)
