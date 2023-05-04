@@ -21,7 +21,7 @@ n = leng / 2;
 else
 n = (leng - 1) / 2;
 
-for (i = n; i <= leng; i++)
+for (i = n; str[i] != '\0'; i++)
 {
 _putchar(str[i]);
 }
