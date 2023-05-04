@@ -21,7 +21,7 @@ for (j = 0; j < leng; j++)
 {
 dest[j] = src[j];
 }
-j++;
-dest[j] =  '\0';
+
+dest[leng] = '\0';
 return (dest);
 }
