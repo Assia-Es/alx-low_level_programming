@@ -3,7 +3,7 @@
 /**
  * puts2 - writes the character c to stdout
  * @str: The character to print
- * return: half or input 
+ * Return:half or input
  */
 
 void puts2(char *str)
