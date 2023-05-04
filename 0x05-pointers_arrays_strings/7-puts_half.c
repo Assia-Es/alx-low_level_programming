@@ -19,7 +19,7 @@ leng++;
 if (leng % 2 == 0)
 n = leng / 2;
 else
-n = (leng - 1) / 2;
+n = (leng + 1) / 2;
 
 for (i = n; str[i] != '\0'; i++)
 {
