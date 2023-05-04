@@ -16,7 +16,7 @@ t++;
 s++;
 }
 s--;
-for (l = t; l > 0; t--)
+for (l = t; l > 0; l--)
 {
 _putchar(*s);
 s--;
