@@ -17,7 +17,7 @@ printf("%d, ", a[i]);
 }
 if (i == (n - 1))
 {
-printf("%d\n", a[n - 1]);
+printf("%d", a[n - 1]);
 }
-
+printf("\n");
 }
