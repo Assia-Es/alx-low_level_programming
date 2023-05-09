@@ -15,7 +15,7 @@ while (*s)
 for (k = 0; accept[k]; k++)
 {
 if (*s == accept[k])
-rerurn (s);
+return (s);
 }
 s++;
 }
