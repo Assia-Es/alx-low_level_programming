@@ -3,8 +3,7 @@
 /**
  * _strspn - writes the character c to stdout
  * @s: The character to print
- * @b: The character to print
- * @n: The character to print
+ * @accept: The character to print
  * Return: s
  */
 
