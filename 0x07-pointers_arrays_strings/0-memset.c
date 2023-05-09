@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * *_memset - writes the character c to stdout
+ * _memset - writes the character c to stdout
  * @s: The character to print
  * @b: The character to print
  * @n: The character to print
