@@ -90,11 +90,11 @@ for (i = 0; i < len - 1; i++)
 if (r[i])
 a = 1;
 if (a)
-_putchar(r[i] + '0');
+putchar(r[i] + '0');
 }
 if (!a)
-_putchar('0');
-_putchar('\n');
+putchar('0');
+putchar('\n');
 free(r);
 return (0);
 }
