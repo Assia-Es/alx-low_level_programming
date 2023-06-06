@@ -1,15 +1,16 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
- * main - writes the character c to stdout
- * @argc: The character to print
- * @argv: The character to print
+ * main - prints its name, followed by a new line.
+ * @argc: argument count
+ * @argv: arguments
  *
- * Return: On success 0.
+ * Return: 0
  */
-int main(int argc __attribute__((unused)), char *argv[])
+int main(int argc, char **argv)
 {
-printf("%s\n", *argv);
-return (0);
+	(void)argc;
+
+	printf("%s\n", argv[0]);
+	return (0);
 }
