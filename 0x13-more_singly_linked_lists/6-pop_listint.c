@@ -1,23 +1,23 @@
 #include "lists.h"
+#include <stdlib.h>
 
 /**
- * pop_listint - writes the character c to stdout
- * @head: The character to print
+ * pop_listint - deletes the head node
+ * @head: a double pointer
  *
- * Return: number
+ *Return: empty
  */
 int pop_listint(listint_t **head)
 {
-listint_t *temp;
-int num;
+	listint_t *start;
+	int n;
 
-if (!head || *head)
-return (0);
-
-num = (*head)->n;
-temp = (*head)->next;
-free(*head);
-*head = temp;
-
-return (num);
+	if (head == NULL || *head == NULL)
+		return (0);
+	start = *head;
+	*head = start->next;
+	n = start->n;
+	free(start);
+	return (n);
 }
+
